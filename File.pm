@@ -300,7 +300,7 @@ sub write {
 
 	$self->debug("write($$)");
 	if (@_ == 1) {
-		sysopen $fh, $self->{path}, O_RDWR|O_CREAT
+		sysopen($fh, $self->{path}, O_RDWR|O_CREAT)
 			|| die qq/Cannot open pid file "$self->{path}": $!\n/;
 		flock($fh, LOCK_EX | LOCK_NB)
         	|| die qq/pid "$self->{path}" already locked: $!\n/;
