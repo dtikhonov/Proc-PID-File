@@ -1,5 +1,10 @@
 Revision history for Perl extension Proc::PID::File.
 
+1.28 2016/07/28 Dmitri Tikhonov <dmitri@cpan.org>
+    - Fix long-standing sysopen argument precedence bug, closing
+      RT#62380 and RT#102536.
+    - Fixes to POD and Makefile.PL from David Steinbrunner -- thanks!
+
 1.27 2009/10/12 18:46:27 - Erick Calder <e@arix.com>
    - updated the Changes file
 

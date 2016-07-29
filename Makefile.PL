@@ -10,7 +10,7 @@ WriteMakefile (
     ABSTRACT        => 'A module to manage PID files',
     META_MERGE      => {
         resources => {
-            repository => 'https://github.com/ekkis/Proc-PID-File',
+            repository => 'https://github.com/dtikhonov/Proc-PID-File',
         },
     },
 );
