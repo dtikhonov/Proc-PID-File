@@ -1,0 +1,10 @@
+Build.bat
+Build
+Makefile.PL.bak
+_build
+Proc-PID-File-*
+blib
+*.tmp
+Makefile
+pm_to_blib
+MYMETA.*
