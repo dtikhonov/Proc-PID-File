@@ -69,7 +69,7 @@ sub rundaemon {
 	}
 	sleep 1;
 	open my $fh, '<', "$args{dir}/$args{name}.pid" or die "Error reading $args{dir}/$args{name}.pid - $!";
-	my $pid=<$fh>;
+	$pid=<$fh>;
 	chomp($pid);
 	}
 
