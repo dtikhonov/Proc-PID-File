@@ -58,7 +58,7 @@ use strict;
 use vars qw($VERSION $RPM_Requires);
 use Fcntl qw(:DEFAULT :flock);
 
-$VERSION = "1.28";
+$VERSION = "1.29";
 $RPM_Requires = "procps";
 
 my $RUNDIR = "/var/run";
